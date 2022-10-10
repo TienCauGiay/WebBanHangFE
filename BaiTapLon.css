@@ -18,7 +18,11 @@ header{
 }
 header h1{
 	text-transform: uppercase;
+<<<<<<< HEAD
 	font-size: 30px;
+=======
+	font-size: 32px;
+>>>>>>> 13c287da02848ea5c9fac5e08cb4a51ef4c10770
 	padding: 20px 0 20px 5px;
 	font-family:  Arial,sans-serif;
 }
