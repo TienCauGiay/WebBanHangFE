@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ELECTRONICS STORE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="BaiTapLon.css">
+	<link rel="stylesheet" href="./fontawesome/css/all.css">
+	<script type="text/javascript">
+		function getInfo(){
+			var timkiem = document.getElementById("timkiem").value;
+			if(timkiem == ""){
+				document.getElementById("errortimkiem").innerHTML = "Vui lòng nhập thông tin";
+			}
+			else{
+				document.getElementById("errortimkiem").innerHTML = "";
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-2 menu">
+					<h1>
+						<i class="fas fa-home"></i>
+						menu
+					</h1>
+				</div>
+				<div class="col-8 menu">
+					<div class="timkiem">
+						<input type="text" placeholder="Nhập sp cần tìm..." name="timkiem" id="timkiem" value=""/>
+						<span id="errortimkiem" class="error"></span>
+						<button onclick="getInfo(); return false;"><i class="fas fa-search"></i></button>
+					</div>
+					<ul>
+						<li><a href="">iphone</a>
+							<ul class="menu_con">
+								<li><a href="">Iphone 8 pl</a></li>
+								<li><a href="">Iphone X</a></li>
+								<li><a href="">Iphone 12 pro max</a></li>
+							</ul>
+						</li>
+						<li><a href="">ipad</a>
+							<ul class="menu_con">
+								<li><a href="">ipad mini</a></li>
+								<li><a href="">ipad air</a></li>
+								<li><a href="">ipad gen</a></li>
+							</ul>
+						</li>
+						<li><a href="">samsung</a>
+							<ul class="menu_con">
+								<li><a href="">S20 untral</a></li>
+								<li><a href="">Note 10</a></li>
+								<li><a href="">S9</a></li>
+							</ul>
+						</li>
+						<li><a href="">dell</a>
+							<ul class="menu_con">
+								<li><a href="">dell inspiron</a></li>
+								<li><a href="">dell gaming</a></li>
+								<li><a href="">dell latitude</a></li>
+							</ul>
+						</li>
+						<li><a href="">macbook</a>
+							<ul class="menu_con">
+								<li><a href="">mac mini</a></li>
+								<li><a href="">mac pro 13</a></li>
+								<li><a href="">mpxu2</a></li>
+							</ul>
+						</li>
+                        <li><a href="">khác</a>
+                            <ul class="menu_con">
+								<li><a href="">tai nghe</a></li>
+								<li><a href="">chuột</a></li>
+								<li><a href="">bàn phím</a></li>
+							</ul>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="slider">
+		<a href=""><img src="./Images/slider.jpg" alt=""></a>
+	</div>
+	<main class="container-fluid">
+		<div>
+			<div class="tieude">
+				<p>IPHONE</p>
+			</div>
+			<article class="picture">
+				<div class="ip">
+					<img src="Images/iphone1.jpg"> 
+					<div>
+						<p>iphone 12 pro max</p>
+					</div>
+					<div>
+						<p>20.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/iphone2.jpg">
+					<div>
+						<p>iphone 13 pro max</p>
+					</div>
+					<div>
+						<p>50.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/iphone3.jpg">
+					<div>
+						<p>iphone 8 plus</p>
+					</div>
+					<div>
+						<p>10.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/iphone4.jpg">
+					<div>
+						<p>iphone 13 pro hồng</p>
+					</div>
+					<div>
+						<p>35.000.000 VNĐ</p>
+					</div>
+				</div>
+			</div>
+		    </article>
+		</div>
+		<div>
+			<div class="tieude">
+				<p>SAMSUNG</p>
+			</div>
+			<article class="picture">
+				<div class="ip">
+					<img src="Images/samsung1.jpg"> 
+					<div>
+						<p>sansung galaxy y</p>
+					</div>
+					<div>
+						<p>45.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/samsung2.jpg">
+					<div>
+						<p>s20 ultra</p>
+					</div>
+					<div>
+						<p>22.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/samsung3.jpg">
+					<div>
+						<p>samsung note 10</p>
+					</div>
+					<div>
+						<p>17.000.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/samsung4.jpg">
+					<div>
+						<p>samsung A51</p>
+					</div>
+					<div>
+						<p>27.000.000 VNĐ</p>
+					</div>
+				</div>
+			</article>
+		</div>
+		<div>
+			<div class="tieude">
+				<p>LAPTOP</p>
+			</div>
+			<article class="picture">
+				<div class="ip">
+					<img src="Images/laptop1.jpg"> 
+					<div>
+						<p>dell</p>
+					</div>
+					<div>
+						<p>27.500.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/laptop2.jpg">
+					<div>
+						<p>lenovo</p>
+					</div>
+					<div>
+						<p>20.050.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/laptop3.jpg">
+					<div>
+						<p>think pad</p>
+					</div>
+					<div>
+						<p>15.590.000 VNĐ</p>
+					</div>
+				</div>
+				<div class="ip">
+					<img src="Images/laptop4.jpg">
+					<div>
+						<p>macbook</p>
+					</div>
+					<div>
+						<p>50.090.500 VNĐ</p>
+					</div>
+				</div>
+			</article>
+		</div>
+        <div>
+            <div class="tieude">
+                <p>KHÁC</p>
+            </div>
+            <article class="picture">
+                <div class="ip">
+                    <img src="Images/khac1.jpg"> 
+                    <div>
+                        <p>chuột</p>
+                    </div>
+                    <div>
+                        <p>999.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="ip">
+                    <img src="Images/khac2.jpg">
+                    <div>
+                        <p>tai nghe</p>
+                    </div>
+                    <div>
+                        <p>590.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="ip">
+                    <img src="Images/khac3.jpg">
+                    <div>
+                        <p>bàn phím</p>
+                    </div>
+                    <div>
+                        <p>1.690.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="ip">
+                    <img src="Images/khac4.jpg">
+                    <div>
+                        <p>USB</p>
+                    </div>
+                    <div>
+                        <p>200.000 VNĐ</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+	</main>
+	<footer>
+		<div class="futer">
+			<div class="col-3">
+				<ul>
+					<li><a href="">IPHONE 13</a></li>
+					<li><a href="">IPHONE 12</a></li>
+					<li><a href="">IPHONE 10</a></li>
+					<li><a href="">IPHONE 8</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<li><a href="">DELL I9</a></li>
+					<li><a href="">DELL I7</a></li>
+					<li><a href="">DELL I5</a></li>
+					<li><a href="">DELL I3</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<li><a href="">SAMSUNG ULTRA</a></li>
+					<li><a href="">SAMSUNG Y</a></li>
+					<li><a href="">SAMSUNG NOTE</a></li>
+					<li><a href="">SAMSUNG S</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<li><a href="">CHUỘT</a></li>
+					<li><a href="">USB</a></li>
+					<li><a href="">TAI NGHE</a></li>
+					<li><a href="">BÀN PHÍM</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-12 lienhe">
+			<p>Coppy Right @ 2021 Nhóm 8</p>
+			<p>Liên hệ: &nbsp <a href="https://www.facebook.com/profile.php?id=100028282281681">Facebook </a></p>
+		</div>
+	</footer>
+</body>
+</html>
